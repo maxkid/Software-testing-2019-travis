@@ -35,7 +35,7 @@ public class TestDeposit {
 		// 利率都是3%
 		double expected = (198178 * (Math.pow(1 + 0.03, 40));
 
-		// when...
+		// when... 
 		when(userA.depositAmount()).thenReturn(198178);
 		when(userA.depositInterest(anyInt())).thenReturn(0.03);
 		when(userA.expireEra()).thenReturn("昭和");
