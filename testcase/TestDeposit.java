@@ -9,7 +9,7 @@ import static org.mockito.AdditionalMatchers.*;
 
 public class TestDeposit {
 	Acount userA;
- 
+  
 	@Before
 	public void setUpMock() {
 		userA = mock(Acount.class);
