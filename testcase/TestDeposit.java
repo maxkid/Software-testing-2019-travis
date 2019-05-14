@@ -46,7 +46,7 @@ public class TestDeposit {
 		String result = deposit.deposit(userA);
 		assertEquals("昭和64年: " + (int) expected, result);
 	}
-
+  
 	@Test
 	public void test1974To1994() {
 		// 從老師的年代到助教的年代,存一年薪水18000
